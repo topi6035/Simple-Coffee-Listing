@@ -1,0 +1,54 @@
+.card-coffee {
+    display: flex;
+    flex-direction: column;
+}
+.img-card-coffee {
+    border-radius: 10px;
+}
+.tag-popular {
+    position: absolute;
+    background-color: #F6C768;
+    color: #111315;
+    font-size: 10px;
+    font-weight: 800;
+    padding: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.labels-card-coffee {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+.name-card-coffee {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #FEF7EE;
+}
+.tag-price-card-coffee {
+    background-color: #BEE3CC;
+    border-radius: 5px;
+    color: #111315;
+    font-size: 10px;
+    font-weight: 900;
+    padding: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.more-labels-coffee {
+    display: flex;
+    align-items: center;
+}
+.rating-card-coffee{
+    font-size: 14px;
+    color: #FEF7EE;
+}
+.votes-card-coffee {
+    font-size: 12px;
+    font-weight: 700;
+    color: #6F757C;
+}

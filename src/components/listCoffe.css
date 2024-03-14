@@ -1,0 +1,19 @@
+.list-of-coffes{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+@media screen and (min-width: 641px) {
+    .list-of-coffes{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 35px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .list-of-coffes{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 35px;
+    }
+}
